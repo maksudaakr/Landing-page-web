@@ -1,0 +1,43 @@
+body{
+    background-color: #37517e;
+
+}
+.navcolor{
+    background-color: #37517e;
+}
+.logo{
+    color: rgb(243, 244, 245);
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 25px;
+}
+.home{
+    text-decoration: none;
+    color: rgb(118, 184, 247);
+    margin-left: 350px;
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 35px;
+}
+
+.home1{
+    text-decoration: none;
+    color: rgb(244, 246, 248);
+    padding: 15px;
+    font-weight: 35px;
+    font-size: 15px;
+}
+.home1:hover{
+    color: rgb(92, 164, 228);
+}
+.btn1{
+    width: 120px;
+    border-radius: 70px;
+    background-color:rgb(118, 184, 247) ;
+    padding: 8px;
+    color: aliceblue;
+
+}
+.btn1:hover{
+    background-color: rgb(144, 191, 233);
+}
