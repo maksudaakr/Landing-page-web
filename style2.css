@@ -1,5 +1,5 @@
 body{
-    background-color: #37517e;
+    background-color: #6780ac;
 
 }
 .navcolor{
@@ -14,7 +14,7 @@ body{
 .home{
     text-decoration: none;
     color: rgb(118, 184, 247);
-    margin-left: 350px;
+    margin-left: 250px;
     font-size: 15px;
     margin-top: 20px;
     font-weight: 35px;
@@ -33,11 +33,110 @@ body{
 .btn1{
     width: 120px;
     border-radius: 70px;
-    background-color:rgb(118, 184, 247) ;
-    padding: 8px;
+    background-color:rgb(46, 182, 216) ;
+    padding: 5px;
     color: aliceblue;
+    border-style: solid;
+    border-color: aliceblue;
 
 }
 .btn1:hover{
-    background-color: rgb(144, 191, 233);
+    background-color: rgb(85, 123, 160);
 }
+.section1{
+    display: flex;
+    background-color: #37517e;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.divh1{
+    font-size: 60px;
+    color: aliceblue;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.btn2{
+    margin-left: 100px;
+}
+/* img{
+    width: 600px;
+    height: 500px;
+} */
+.divh3{
+    margin-left: 100px;
+    color: rgb(223, 224, 226);
+}
+.div2{
+    display: flex;
+    margin-top: 30px;
+}
+.watch:hover{
+    color: rgb(129, 175, 236);
+}
+.watch{
+    color: aliceblue;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.btn2{
+    width: 160px;
+    border-radius: 70px;
+    background-color: rgb(46, 182, 216);
+    padding: 12px;
+    color: aliceblue;
+    font-size: 15px;
+}
+.fa-play{
+    margin-left: 5px;
+    padding-left: 10px;
+}
+.icon:hover{
+    color: rgb(13, 45, 87);
+}
+.hero {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    padding: 120px 0 60px 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 400px;
+  }
+.hero .animated {
+    animation: up-down 1.5s ease-in-out infinite alternate-reverse both;
+  }
+  
+  @media (max-width: 640px) {
+    .hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    .hero p {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  
+    .hero .btn-get-started,
+    .hero .btn-watch-video {
+      font-size: 13px;
+    }
+  }
+  
+  @keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+  
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  .img-fluid{
+    width: 500px;
+    height: 600px;
+    margin-top: 120px;
+  }
+  
